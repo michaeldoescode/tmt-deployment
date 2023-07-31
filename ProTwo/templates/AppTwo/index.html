@@ -1,0 +1,14 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ app_name }}</title>
+    <link rel="stylesheet" href="{% static 'css/my_style.css' %}">
+</head>
+<body>
+    <h1>{{ app_name }}</h1>
+    <img src="{% static 'images/image.jpg' %}" alt="Did not load image" width="500">
+    <p>{{ app_description }}</p>
+</body>
+</html>
